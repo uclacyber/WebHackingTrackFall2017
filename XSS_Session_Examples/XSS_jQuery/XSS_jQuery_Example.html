@@ -17,7 +17,7 @@
 	<div id="innerHTMLtxt"></div>
 	<script>
 		$(document).ready( function() {
-			$.cookie("cookie1", "test", { expires: 7 });
+			$.cookie("cookie1", "test", { path: "/", expires: 7 });
 			setInterval(test, 100);
 			function test() {
 				var comment = $('#comment').val();
